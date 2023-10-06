@@ -33,6 +33,9 @@ int main() {
 	p1->print();
 	p2->print();
 	cout << endl << "주소 변경 : ";
+	p1->chAddr("남양주 화도");
+	p1->print();
+	cout << "주소 변경 : ";
 	p2->chAddr("남양주 화도");
 	p2->print();
 	delete p1;
