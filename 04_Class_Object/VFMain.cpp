@@ -7,6 +7,7 @@ int main() {
 	float b[3] = { 2, 4, 6 };
 	VecF v1(3, a);
 	VecF v2(3, b);
+	VecF v3(v1.add(v2));
 	v1.print();
 	cout << " + ";
 	v2.print();
