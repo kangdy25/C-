@@ -18,15 +18,15 @@
 
 ## ⚙️ Environment Set-Up
 ```bash
-// 1. Install gcc(g++)
+# 1. Install gcc(g++)
 $ sudo apt-get update 
-$ sudo apt-get install gcc // C 
-$ sudo apt-get install g++ // C++ 
+$ sudo apt-get install gcc # C 
+$ sudo apt-get install g++ # C++ 
 
-// 2. Make C++ File
-$ vi [filename].cpp // write file
+# 2. Make C++ File
+$ vi [filename].cpp # write file
 
-// 3. Compile and Run the C++ File
-g++ [filename].cpp // Compile file
-./a.out // executable file
+# 3. Compile and Run the C++ File
+g++ [filename].cpp # Compile file
+./a.out # executable file
 ```
