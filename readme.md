@@ -1,4 +1,3 @@
-- - -
 # Learn C++
 ## 🎯 Learning Objectives
 1. Learn the basic grammer of C++ and how to utilize C++.
