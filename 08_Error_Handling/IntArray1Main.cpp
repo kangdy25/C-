@@ -35,6 +35,7 @@ int main() {
 		for (int i = 0; i <= 10; i++)
 			arr[i] = i;
 	} catch (const Array::BadIndex &e) {
+		cerr << e.what();
 		cerr << "인덱스 범위 오류" << e.wrongIndex << endl;
 	}
 	cout << arr << endl;
